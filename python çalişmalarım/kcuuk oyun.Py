@@ -1,0 +1,2 @@
+kaplumbaga = input("kaplumbağanin karni acikti solda büyük ekmek sağda küçük ekmek var ama biri tuzakli hangisini secersin?")
+print('Doğru cevap küçük ekmek büyük ekmek tuzakti senin cevabin :' + str (kaplumbaga))
