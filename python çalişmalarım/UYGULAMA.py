@@ -11,14 +11,15 @@
 # | ogrenci yası
 
 #"""
-name = abidin
-surname = yılmaz
+name = "abidin"
+surname = "yılmaz"
 print(name + surname)
-cınsıyet = erkek
+cınsıyet = "erkek"
 tc = 249826512
 birthday = "20.08.2008"
 adres = "türkiye manisa akhisar" 
 yası = 17
+print(tc + birthday)
 
 #"""
 #| 2- asagıdaki hesapları degisken içine atarak toplamlarını hesaplayınız
