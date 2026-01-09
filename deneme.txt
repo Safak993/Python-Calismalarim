@@ -1,0 +1,3 @@
+
+(Sistem): Naber
+ (Kullanýcý): Ýyi senden naber

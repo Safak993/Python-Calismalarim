@@ -22,6 +22,10 @@ while not renk:
         mesaj_t.write("Hiçbir şey girmediniz!", align="center", font=("Arial", 16, "normal"))
         time.sleep(1)
         continue
+    if girilen == "çık":
+        exit(
+
+        )
 
     # Türkçe → İngilizce çevir
     if girilen.lower() == "kırmızı":
@@ -42,9 +46,10 @@ while not renk:
 
 # Turtle oluştur ve seçilen rengi uygula
 t = turtle.Turtle()
+t.shape("turtle")
 t.penup()
 t.color(renk)
-t.goto(0, 0)
+t.goto(0, -1)
 t.write(f"Turtle rengi: {renk}", align="center", font=("Arial", 20, "normal"))
 
 turtle.done()
